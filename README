@@ -1,0 +1,39 @@
+num2words
+=========
+ Python3 script for converting integers to spoken English words.
+
+REQUIREMENTS
+============
+ -python3
+
+USAGE
+=====
+ - As script
+  ---------
+   * Type 'python3 num2words.py [integer]' in terminal then <enter>.(Example 'python3 num2words.py 12334563)
+   * You can make a script executable then run  './num2words.py 120000'.(on UNIX platforms)
+   * You can pass multiple integers separated by whitespace.( Example 'python3 num2words.py 123456 2346 74331 ')
+
+ - As python module
+   ----------------
+    >>> from num2words import Number
+    >>> my_number = Number(1234) # You may use any number
+    >>> my_number.convert_to_words()
+
+LICENSE
+=======
+   
+   Copyright 2012 Machaku Banga
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
