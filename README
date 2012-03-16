@@ -1,6 +1,6 @@
 num2words
 =========
- Python3 script for converting integers to spoken English words.
+ Python3 script for converting numbers to spoken English words.
 
 REQUIREMENTS
 ============
@@ -10,9 +10,9 @@ USAGE
 =====
  - As script
   ---------
-   * Type 'python3 num2words.py [integer]' in terminal then <enter>.(Example 'python3 num2words.py 12334563)
+   * Type 'python3 num2words.py [number]' in terminal then <enter>.(Example 'python3 num2words.py 12334563)
    * You can make a script executable then run  './num2words.py 120000'.(on UNIX platforms)
-   * You can pass multiple integers separated by whitespace.( Example 'python3 num2words.py 123456 2346 74331 ')
+   * You can pass multiple numbers separated by whitespace.( Example 'python3 num2words.py 12 123455666666 123.1 ')
 
  - As python module
    ----------------
