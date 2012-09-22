@@ -150,12 +150,13 @@ class Number:
 			word+= ' point '+self.convert_to_digits(fraction)
 		return word
 
-try:
-	for i in range(1,len(sys.argv)):
-		try:
-			no = Number(int(sys.argv[i]))
-		except ValueError:
-			no = Number(float(sys.argv[i]))
-		print (no.convert_to_words())
-except KeyError:
-	pass
+if __name__ == "__main__":
+	try:
+		for i in range(1,len(sys.argv)):
+			try:
+				no = Number(int(sys.argv[i]))
+			except ValueError:
+				no = Number(float(sys.argv[i]))
+			print (no.convert_to_words())
+	except KeyError:
+		pass
